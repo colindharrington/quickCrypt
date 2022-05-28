@@ -1,0 +1,41 @@
+           ______  _____ 
+     /\   |  ____|/ ____|
+    /  \  | |__  | (___  
+   / /\ \ |  __|  \___ \ 
+  / ____ \| |____ ____) |
+ /_/_  _\_\______|_____/ 
+     |__ \| ____| / /            
+        ) | |__  / /_          Encrypt
+       / /|___ \| '_ \            / 
+      / /_ ___) | (_) |        Decrypt
+    _|____|____/_\___/_    
+   / ____|  _ \ / ____|   
+  | |    | |_) | |        
+  | |    |  _ <| |        
+  | |____| |_) | |____    
+   \_____|____/ \_____|   
+
+	You may need to give the shell scripts executable privileges
+	Enter the directory and execute these 3 commands
+
+chmod +x encrypt.sh
+chmod +x decrypt.sh
+chmod +x delete.sh
+
+	to execute, enter the main directory and enter the following 
+
+./encrypt.sh
+./decrypt.sh
+./delete.sh
+
+	To create terminal shortcuts, edit your bash profile by entering this command,
+
+nano .zprofile
+
+	and add the following lines to that file
+
+alias enc=./quickCrypt/qcrypt.sh
+alias dec=./quickCrypt/qdcrypt.sh
+alias del=./quickCrypt/qdcryptdel.sh
+
+You now may use "enc", "dec", and "del" as shortcuts for these scripts
