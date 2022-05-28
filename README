@@ -34,8 +34,8 @@ nano .zprofile
 
 	and add the following lines to that file
 
-alias enc=./quickCrypt/qcrypt.sh
-alias dec=./quickCrypt/qdcrypt.sh
-alias del=./quickCrypt/qdcryptdel.sh
+alias enc=./Documents/GitHub/quickCrypt/qcrypt.sh
+alias dec=./Documents/GitHub/quickCrypt/qdcrypt.sh
+alias del=./Documents/GitHub/quickCrypt/qdcryptdel.sh
 
 You now may use "enc", "dec", and "del" as shortcuts for these scripts
