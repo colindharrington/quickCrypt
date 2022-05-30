@@ -18,6 +18,8 @@
 	You may need to give the shell scripts executable privileges
 	Enter the directory and execute these 3 commands
 
+	Try executing the commands first - and if you run into permissions problems simply run the following 3 commands. 
+
 chmod +x encrypt.sh
 chmod +x decrypt.sh
 chmod +x delete.sh
@@ -34,8 +36,8 @@ nano .zprofile
 
 	and add the following lines to that file
 
-alias enc=./Documents/GitHub/quickCrypt/qcrypt.sh
-alias dec=./Documents/GitHub/quickCrypt/qdcrypt.sh
-alias del=./Documents/GitHub/quickCrypt/qdcryptdel.sh
+alias enc=./Documents/GitHub/quickCrypt/encrypt.sh
+alias dec=./Documents/GitHub/quickCrypt/decrypt.sh
+alias del=./Documents/GitHub/quickCrypt/delete.sh
 
 You now may use "enc", "dec", and "del" as shortcuts for these scripts
