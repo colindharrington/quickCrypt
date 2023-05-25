@@ -9,7 +9,8 @@ echo -e "\033[1;103m\033[1;30m  Enter file to decrypt  \033[0m\033[0m"
 echo ""
 read file   
 echo ""
-openssl enc -d -aes-256-cbc -in $file -out .tmp.tmp
+openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -in $file -out .tmp.tmp
+
 echo ""
 echo -e "\033[1;102m\033[1;30m   vvvv    message    vvvv             \033[0m\033[0m"
 echo ""
